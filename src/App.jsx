@@ -134,7 +134,7 @@ function App() {
         <a
           id="tweet-quote"
           href={`https://twitter.com/intent/tweet?text=${quoteData[0]?.quote} - ${quoteData[0]?.author}`}
-          target="_blank" // Откроется в новой вкладке
+          target="_blank" 
         >
           Tweet Quote
         </a>
