@@ -1,0 +1,69 @@
+/* Общий стиль для всего приложения */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+#quote-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px; /* Минимальная высота для quote-box */
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+#text {
+  font-size: 18px;
+  margin: 20px 0;
+  word-wrap: break-word; /* Перенос слов по мере необходимости */
+  max-width: 400px; /* Максимальная ширина для текста */
+  display: flex;
+  align-items: center; /* Оставляем текст по центру вертикально */
+  flex-grow: 1; /* Занимает доступное вертикальное пространство */
+}
+
+#author {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px; /* Отступ между автором и кнопками */
+}
+
+#new-quote, #tweet-quote {
+  background-color: #0056a3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#new-quote {
+  margin-right: 10px; /* Отступ справа для разделения кнопок */
+}
+
+#tweet-quote {
+  margin-left: 10px; /* Отступ слева для разделения кнопок */
+}
+
+/* При наведении на кнопки */
+#new-quote:hover, #tweet-quote:hover {
+  background-color: #0056a3;
+}
