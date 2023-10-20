@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
   const [quoteData, setQuoteData] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState('happiness'); // Начальная категория
+  const [selectedCategory, setSelectedCategory] = useState('happiness'); 
 
   const categories = [
     'age',
